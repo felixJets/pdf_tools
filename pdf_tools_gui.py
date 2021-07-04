@@ -62,7 +62,7 @@ class MainApp(qtw.QWidget):
         self.icon_clear = QtGui.QIcon("icons/icons8-delete-48.png")
         self.icon_combine = QtGui.QIcon("icons/icons8-docunemts-zusammenführen-50.png") ### From: https://icons8.de/icon/meukjqGfdrFj/docunemts-zusammenf%C3%BChren
         self.icon_encrypt = QtGui.QIcon("icons/icons8-encrypt-50.png")
-        self.icon_success = QtGui.QIcon("icons/icons8-task-completed-48.png") ### From: <a target="_blank" href="https://icons8.com/icon/40318/task-completed">Task Completed</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        self.icon_success = QtGui.QIcon("icons/icons8-task-completed-48.png") ### From: https://icons8.com/icon/40318/task-completed
 
         ### List Widget
         self.list1 = PDFListWidget()
@@ -278,7 +278,7 @@ class MainApp(qtw.QWidget):
 
     def debug_files(self):
         """
-        Debug function for test-puposes
+        Debug function for test-purposes
         :return:  None
         """
 
